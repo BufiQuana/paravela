@@ -1,0 +1,82 @@
+body {
+    background-image: url('/resources/imgs/bg.png');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Nunito', sans-serif !important;
+}
+/* ===========================================navbar============================================= */
+.nav-tabs{
+    max-height: 10vh;
+    width: 100%;
+    z-index: 20;
+}
+.navbar ul li a {
+    color: white;
+}
+.navbar ul li a:hover {
+    color: #bd9033;
+}
+.nav-btn {
+    border: 1px solid #bd9032;
+    }
+/* ===========================================navbar============================================= */
+
+/* ===========================================footer============================================= */
+.footer-bg {
+    background-image: url('/resources/imgs/footer.png');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-btn {
+    background-color: #bd9033;
+    color: white;
+    /* margin-top: -5%; */
+}
+
+.round {
+  border-radius: 5em / 5em;
+}
+
+.contact-tags {
+    background-image: linear-gradient(to right, #bd9033 50%, #0da19e);
+    color: white;
+  }
+
+.dxmb-right {
+    background-color: #009f84;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+
+.footer-quotes {
+    color: #0da19e;
+    font-weight: bold;
+    text-align: start;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* ===========================================footer============================================= */
+
+@media screen and (max-width: 1366px) {
+    nav a img {
+        width: 65%;
+        height: 65%;
+      }
+
+  }

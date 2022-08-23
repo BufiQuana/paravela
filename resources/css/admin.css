@@ -1,0 +1,72 @@
+/* ================================================listing================================= */
+table {
+    height: 100%;
+  }
+tr {
+
+    max-width: 90vw;
+}
+td {
+    max-width: 50vw;
+    max-height: 20vh;
+}
+.td-content {
+   overflow-x: scroll;
+   overflow-y: hidden;
+}
+.content
+{
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130ch;
+}
+.title
+{
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 40ch;
+}
+/* ================================================listing================================= */
+
+/* width */
+td::-webkit-scrollbar {
+
+    height: 1vh;
+  }
+
+  /* Track */
+td::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+td::-webkit-scrollbar-thumb {
+    background: #cca123;
+  }
+
+  /* Handle on hover */
+td::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .admin-logo {
+        width: 70%;
+        height: 70%;
+      }
+
+      .form-footer {
+        height: 70%;
+      }
+
+  }
+body {
+    font-family: 'Nunito', sans-serif;
+}
