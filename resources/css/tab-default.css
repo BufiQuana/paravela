@@ -71,11 +71,16 @@ body {
     left: 16px;
 }
 
+.img-logo-nav {
+    height: 75px;
+    width: auto;
+}
+
 /* ===========================================footer============================================= */
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
     nav a img {
         width: 65%;
         height: 65%;
     }
-}
+} */

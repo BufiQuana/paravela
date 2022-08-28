@@ -24,7 +24,7 @@
     <div id="all" class="tabcontent">
       <div class="row g-4">
         @foreach ($all as $i)
-        <div class="col-sm-12 col-md-3 border-0">
+        <div class="col-sm-12 col-lg-3 col-md-6 border-0">
           <img src="{{$i->images}}" class="card-img-top rounded-2" style="height:250px;">
         </div>
         @endforeach

@@ -9,7 +9,7 @@
         <div class="box-content">
             <div class="container ">
                 <div class="row">
-                    <div class="col-sm-12 col-md-3 text-md-start text-center pb-2">
+                    <div class="col-sm-12 col-lg-3 col-md-6 text-md-start text-center pb-2">
                         <h1 style="color: #bd9032">50+ Tiện Ích</h1>
                         <h1 style="font-size: xx-large; color: #bd9032">hải cảng trên không</h1>
                         <p class="text-black pt-4">This tutorial follows Bootstrap 4, which was released in 2018, as an upgrade to Bootstrap 3, with new components, faster stylesheetc, more responsiveness, etc.
@@ -19,7 +19,7 @@
                         </p>
                         <a href="" class="btn contact-tags round">Xem thêm</a>
                     </div>
-                    <div class="col-sm-12 col-md-3 vh-75 pb-2">
+                    <div class="col-sm-12 col-lg-3 col-md-6 vh-75 pb-2">
                         <div class="card">
                             <div class="card-header list-title py-2 border-0">
                                 <p>Cụm tiện ích</p>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 pb-2">
+                    <div class="col-sm-12 col-lg-3 col-md-6 pb-2">
                         <div class="card">
                             <div class="card-header list-title py-2 border-0">
                                 <p>Cụm tiện ích</p>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 pb-2">
+                    <div class="col-sm-12 col-lg-3 col-md-6 pb-2">
                         <div class="card">
                             <div class="card-header list-title py-2 border-0">
                                 <p>Cụm tiện ích</p>
@@ -201,27 +201,27 @@
                 stagePadding: 60
             },
             600: {
-                items: 1,
+                items: 3,
                 stagePadding: 100
             },
             1000: {
-                items: 1,
+                items: 3,
                 stagePadding: 200
             },
             1200: {
-                items: 1,
+                items: 3,
                 stagePadding: 250
             },
             1400: {
-                items: 1,
+                items: 3,
                 stagePadding: 300
             },
             1600: {
-                items: 1,
+                items: 3,
                 stagePadding: 350
             },
             1800: {
-                items: 1,
+                items: 3,
                 stagePadding: 400
             }
         }

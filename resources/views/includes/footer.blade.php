@@ -3,7 +3,7 @@
 @endpush
 <footer class="footer-home p-5">
     <div class="row text-center pb-3">
-        <div class="col-md-4 col-sm-12"><img src="{{URL::asset('/imgs/dxmb-logo.png')}}" alt="dxmb-logo" class="pb-4 img-dxmb-logo">
+        <div class="col-md-4 col-sm-12"><img src="{{URL::asset('/imgs/dxmb-logo.png')}}" alt="dxmb-logo" class="pb-4 img-dxmb-logo img-fluid">
             <div>
                 <a class="dxmb-right round py-1 px-2">Đơn vị phân phối độc quyền</a>
             </div>
