@@ -1,6 +1,25 @@
-/* ==========================================navbar======================================= */
+html {
+    font-size: 100%;
+}
 
-.nav-index{
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ==========================================navbar======================================= */
+.img-logo-nav {
+    height: 75px;
+    width: auto;
+}
+
+.nav-index {
     position: fixed;
     width: 100%;
     z-index: 20;
@@ -13,11 +32,11 @@
 }
 .nav-btn {
     border: 1px solid #bd9032;
-    }
+}
 /* ==========================================navbar======================================= */
 
 body {
-    background-image: url('/resources/imgs/bg.png');
+    background-image: url("/resources/imgs/bg.png");
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,11 +47,10 @@ body {
     width: 100%;
     margin: 0%;
     padding: 0%;
-    font-family: 'Nunito', sans-serif !important;
+    font-family: "Nunito", sans-serif !important;
 }
 
-section image
-{
+section image {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
@@ -42,21 +60,16 @@ section image
 }
 
 .box-content {
-    margin-top: 15vh;
+    margin-top: 25vh;
     margin-bottom: 5vh;
-    max-height: 80vh;
     overflow: hidden;
 }
 
-
 /* ============================== tong quan ====================== */
 .tong-quan {
-    margin-top: 20vh;
-    margin-bottom: 5vh;
-    height: 70vh;
-    width: 80vw;
+    margin: 25vh 6vw 5vh;
 }
-.tong-quan img{
+.tong-quan img {
     height: 35vh;
 }
 .tong-quan b {
@@ -68,6 +81,14 @@ section image
 /* ============================== tong quan ====================== */
 
 /* ============================== Dau tu ====================== */
+.dau-tu {
+    margin: 20vh 6vw 5vh;
+}
+
+.dau-tu .card-img {
+    min-height: 50vh;
+}
+
 .card-img-overlay {
     height: 40%;
     vertical-align: bottom;
@@ -87,7 +108,8 @@ section image
     object-fit: cover;
     text-align: center;
 }
-.cell .card-title,.cell .card-text {
+.cell .card-title,
+.cell .card-text {
     display: none;
 }
 .cell h2 {
@@ -107,16 +129,21 @@ section image
 .dau-tu .active-cell .card-text,
 .cell:hover .card-title,
 .cell:hover .card-text {
-    display:block;
+    display: block;
 }
 .dau-tu .active-cell h2,
 .cell:hover h2 {
     display: none;
 }
+
 /* ============================== Dau tu ====================== */
 
-
 /* ============================== tien ich ====================== */
+.tien-ich {
+    margin: 25vh 6vw 5vh;
+    overflow: hidden;
+}
+
 .list-title {
     background-color: #bd9032;
     color: white;
@@ -128,43 +155,47 @@ section image
 .tien-ich-list {
     overflow-y: scroll;
     padding-left: 0;
-    height: 60vh;
+    height: 300px;
 }
 /* width */
 .tien-ich-list::-webkit-scrollbar {
     width: 0.5vw;
-  }
-  /* Track */
-  .tien-ich-list::-webkit-scrollbar-track {
+}
+/* Track */
+.tien-ich-list::-webkit-scrollbar-track {
     box-shadow: inset 0 0 1vw grey;
     border-radius: 10%;
-  }
-  /* Handle */
-  .tien-ich-list::-webkit-scrollbar-thumb {
+}
+/* Handle */
+.tien-ich-list::-webkit-scrollbar-thumb {
     background: orange;
     border-radius: 10px;
-  }
-  /* Handle on hover */
-  .tien-ich-list::-webkit-scrollbar-thumb:hover {
+}
+/* Handle on hover */
+.tien-ich-list::-webkit-scrollbar-thumb:hover {
     background: #b30000;
-  }
+}
 
-.tin-tuc img{
-object-fit: cover;
-height: 300px;
+.tin-tuc {
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+
+.tin-tuc img {
+    object-fit: cover;
+    height: 300px;
 }
 .page-listing {
     width: auto;
     height: 40vh;
     left: -1%;
-    bottom:40vh;
+    bottom: 40vh;
     padding: 0%;
     z-index: 20;
     position: fixed;
     background: none;
-
 }
-.page-listing ul li a{
+.page-listing ul li a {
     background: #0000004d;
     color: white;
     border-radius: 100%;
@@ -172,7 +203,7 @@ height: 300px;
     text-decoration: none;
     padding: 0.7vh 0.7vw 0.7vh 0.7vw;
 }
-.page-listing ul li span{
+.page-listing ul li span {
     color: white;
     border-radius: 100%;
     font-weight: bolder;
@@ -181,36 +212,37 @@ height: 300px;
     font-size: x-large;
 }
 .page-listing ul .active-listing a,
-.page-listing ul li:hover a{
+.page-listing ul li:hover a {
     color: white;
     background-color: #01917a;
     padding: 0.7vh 0.7vw 0.7vh 0.7vw;
 }
 .page-listing ul .active-listing span,
-.page-listing ul li:hover span{
+.page-listing ul li:hover span {
     display: block;
 }
 /* ============================== tien ich ====================== */
 
-
 h1 {
-
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 00;
-    background: -webkit-linear-gradient(#c5e5d8 35%,#bd9033 65%);
+    background: -webkit-linear-gradient(#c5e5d8 35%, #bd9033 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
+}
 
 /* ===========================================footer============================================= */
+.footer-home {
+    margin: 20vh 6vw 5vh;
+    overflow: hidden;
+}
+
 .footer-form {
-    height: 70%;
-    width: 100%;
 }
 .footer-bg {
-    background-image: url('/resources/imgs/footer.png');
+    background-image: url("/resources/imgs/footer.png");
     height: auto;
+    min-height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,16 +253,16 @@ h1 {
     /* margin-top: -5%; */
 }
 .round {
-  border-radius: 5em / 5em;
+    border-radius: 5em / 5em;
 }
 .contact-tags {
     background-image: linear-gradient(to right, #bd9033 65%, #0da19e);
     color: white;
-  }
+}
 .dxmb-right {
     background-color: #009f84;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     text-decoration: none;
 }
 .footer-quotes {
@@ -239,9 +271,9 @@ h1 {
     text-align: start;
 }
 .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 /* ===========================================footer============================================= */
@@ -251,26 +283,25 @@ h1 {
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height: 100vh;
-    background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
-  }
-  video {
+    /* height: 100vh; */
+    /* background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png)
+        no-repeat center center/cover; */
+}
+video {
     min-width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     z-index: 1;
-  }
+}
 /* ===========================================cau chuyen============================================= */
-
 
 /* ===========================================vi tri============================================= */
 .vi-tri {
-height: 80vh;
-width: 100%;
-margin-top: 20vh;
-margin-right: 5vh;
+    width: 100%;
+    margin-top: 20vh;
+    margin-right: 5vh;
 }
 .map {
-    background-image: url('/resources/imgs/vi-tri-1.png');
+    background-image: url("/resources/imgs/vi-tri-1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,16 +311,49 @@ margin-right: 5vh;
 .vi-tri ul li {
     list-style-type: none;
 }
-.vi-tri ul li span{
+.vi-tri ul li span {
     color: #bd9032;
 }
 .vi-tri .introduce {
     background-color: #009f84;
     height: auto;
 }
+
+.linear-gradient {
+    background: -webkit-linear-gradient(#c5e5d8 35%, #bd9033 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: -50px;
+}
+
+.carousel-control-prev {
+    left: -30px;
+}
+
+.carousel-control-next {
+    right: -30px;
+}
 /* =========================================== vi tri ============================================= */
 
 /* =========================================== swiper ============================================= */
+.ic-angles-down {
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0);
+}
+
+.swiper-slide .img-gioi-thieu {
+    height: 100%;
+}
+
+.swiper-slide video {
+    height: 100%;
+}
+
 .swiper-pagination-bullet {
     width: 30px;
     height: 30px;
@@ -297,12 +361,13 @@ margin-right: 5vh;
     color: white;
     opacity: unset;
     background-color: #00000099;
-    display:inline-block;
+    display: inline-block;
     display: flex;
     flex-direction: row;
 }
 
-.swiper-pagination-bullet-active, .swiper-pagination-bullet:hover {
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet:hover {
     color: white;
     background-color: #009f84;
     display: flex;
@@ -312,7 +377,6 @@ margin-right: 5vh;
     position: fixed;
     color: #bd9032;
 }
-
 
 .swiper-pagination {
     left: 1vw;
@@ -325,158 +389,173 @@ margin-right: 5vh;
     margin-right: auto;
     padding: 0%;
     overflow: hidden;
-  }
-  .swiper-pagination-bullet .names {
+}
+.swiper-pagination-bullet .names {
     color: white;
     display: none;
-    left: 8%;
-  }
+    left: 40px;
+    top: 3px;
+    white-space: nowrap;
+}
 
-  .swiper-pagination-bullet-active .names,
-  .swiper-pagination-bullet:hover .names{
+.swiper-pagination-bullet-active .names,
+.swiper-pagination-bullet:hover .names {
     display: block;
-    position:absolute;
-
+    position: absolute;
 }
 /* =========================================== swiper ============================================= */
 
-
 /* =========================================== swiper ============================================= */
-  #news-slider{
-      margin-top: 80px;
-  }
-  .post-slide{
-      background: #fff;
-      margin: 20px 15px 20px;
-      border-radius: 15px;
-      padding-top: 1px;
-      box-shadow: 0px 14px 22px -9px #bbcbd8;
-  }
-  .post-slide .post-img{
-      position: relative;
-      overflow: hidden;
-      border-radius: 10px;
-
-  }
-  .post-slide .post-img img{
-      width: 100%;
-      height: auto;
-      transform: scale(1,1);
-      transition:transform 0.2s linear;
-  }
-  .post-slide:hover .post-img img{
-      transform: scale(1.1,1.1);
-  }
-  .post-slide .over-layer{
-      width:100%;
-      height:100%;
-      position: absolute;
-      top:0;
-      left:0;
-      opacity:0;
-      background: linear-gradient(-45deg, rgba(6,190,244,0.75) 0%, rgba(45,112,253,0.6) 100%);
-      transition:all 0.50s linear;
-  }
-  .post-slide:hover .over-layer{
-      opacity:1;
-      text-decoration:none;
-  }
-  .post-slide .over-layer i{
-      position: relative;
-      top:45%;
-      text-align:center;
-      display: block;
-      color:#fff;
-      font-size:25px;
-  }
-  .post-slide .post-content{
-      background:#fff;
-      padding: 2px 20px 40px;
-      border-radius: 15px;
-  }
-  .post-slide .post-title a{
-      font-size:15px;
-      font-weight:bold;
-      color:#333;
-      display: inline-block;
-      text-transform:uppercase;
-      transition: all 0.3s ease 0s;
-  }
-  .post-slide .post-title a:hover{
-      text-decoration: none;
-      color:#3498db;
-  }
-  .post-slide .post-description{
-      line-height:24px;
-      color:#808080;
-      margin-bottom:25px;
-  }
-  .post-slide .post-date{
-      color:#a9a9a9;
-      font-size: 14px;
-  }
-  .post-slide .post-date i{
-      font-size:20px;
-      margin-right:8px;
-      color: #CFDACE;
-  }
-  .post-slide .read-more{
-      padding: 7px 20px;
-      float: right;
-      font-size: 12px;
-      background: #2196F3;
-      color: #ffffff;
-      box-shadow: 0px 10px 20px -10px #1376c5;
-      border-radius: 25px;
-      text-transform: uppercase;
-  }
-  .post-slide .read-more:hover{
-      background: #3498db;
-      text-decoration:none;
-      color:#fff;
-  }
-  .owl-controls .owl-buttons{
-      text-align:center;
-      margin-top:20px;
-  }
-  .owl-controls .owl-buttons .owl-prev{
-      background: #fff;
-      position: absolute;
-      top:-13%;
-      left:15px;
-      padding: 0 18px 0 15px;
-      border-radius: 50px;
-      box-shadow: 3px 14px 25px -10px #92b4d0;
-      transition: background 0.5s ease 0s;
-  }
-  .owl-controls .owl-buttons .owl-next{
-      background: #fff;
-      position: absolute;
-      top:-13%;
-      right: 15px;
-      padding: 0 15px 0 18px;
-      border-radius: 50px;
-      box-shadow: -3px 14px 25px -10px #92b4d0;
-      transition: background 0.5s ease 0s;
-  }
-  .owl-controls .owl-buttons .owl-prev:after,
-  .owl-controls .owl-buttons .owl-next:after{
-      content:"\f104";
-      font-family: FontAwesome;
-      color: #333;
-      font-size:30px;
-  }
-  .owl-controls .owl-buttons .owl-next:after{
-      content:"\f105";
-  }
-  @media only screen and (max-width:1280px) {
-      .post-slide .post-content{
-          padding: 0px 15px 25px 15px;
-      }
-  }
+#news-slider {
+    /* margin-top: 80px; */
+}
+.post-slide {
+    background: #fff;
+    margin: 0 15px;
+    border-radius: 15px;
+    padding-top: 1px;
+    box-shadow: 0px 14px 22px -9px #bbcbd8;
+}
+.post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.post-slide .post-img img {
+    width: 100%;
+    height: auto;
+    transform: scale(1, 1);
+    transition: transform 0.2s linear;
+}
+.post-slide:hover .post-img img {
+    transform: scale(1.1, 1.1);
+}
+.post-slide .over-layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: linear-gradient(
+        -45deg,
+        rgba(6, 190, 244, 0.75) 0%,
+        rgba(45, 112, 253, 0.6) 100%
+    );
+    transition: all 0.5s linear;
+}
+.post-slide:hover .over-layer {
+    opacity: 1;
+    text-decoration: none;
+}
+.post-slide .over-layer i {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+.post-slide .post-content {
+    background: #fff;
+    padding: 2px 20px 40px;
+    border-radius: 15px;
+}
+.post-slide .post-title a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.post-slide .post-title a:hover {
+    text-decoration: none;
+    color: #3498db;
+}
+.post-slide .post-description {
+    line-height: 24px;
+    color: #808080;
+    margin-bottom: 25px;
+}
+.post-slide .post-date {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+.post-slide .post-date i {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #cfdace;
+}
+.post-slide .read-more {
+    padding: 7px 20px;
+    float: right;
+    font-size: 12px;
+    background: #2196f3;
+    color: #ffffff;
+    box-shadow: 0px 10px 20px -10px #1376c5;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.post-slide .read-more:hover {
+    background: #3498db;
+    text-decoration: none;
+    color: #fff;
+}
+.owl-controls .owl-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-controls .owl-buttons .owl-prev {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    left: 15px;
+    padding: 0 18px 0 15px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next {
+    background: #fff;
+    position: absolute;
+    top: -13%;
+    right: 15px;
+    padding: 0 15px 0 18px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after,
+.owl-controls .owl-buttons .owl-next:after {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #333;
+    font-size: 30px;
+}
+.owl-controls .owl-buttons .owl-next:after {
+    content: "\f105";
+}
+@media only screen and (max-width: 1280px) {
+    .post-slide .post-content {
+        padding: 0px 15px 25px 15px;
+    }
+}
 /* =========================================== swiper ============================================= */
 
 /* =========================================== san pham  ============================================= */
+
+@media only screen and (min-width: 769px) {
+    .img-san-pham {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+@media only screen and (min-width: 1401px) {
+    .tien-ich-list {
+        height: 40vh;
+    }
+}
 
 /* =========================================== san pham ============================================= */
 
@@ -484,10 +563,31 @@ margin-right: 5vh;
     nav a img {
         width: 65%;
         height: 65%;
-      }
+    }
 
-      .form-footer {
+    .form-footer {
         height: 70%;
-      }
+    }
+}
 
-  }
+@media only screen and (max-width: 768px) {
+    .box-content,
+    .vi-tri,
+    .tin-tuc {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .dau-tu,
+    .tong-quan,
+    .footer-home,
+    .tien-ich {
+        margin: 0;
+    }
+
+    .img-dxmb-logo {
+        width: 50%;
+        height: auto;
+    }
+}

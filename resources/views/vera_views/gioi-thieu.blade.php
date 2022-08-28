@@ -7,7 +7,7 @@
 <div class="bg-white pt-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="row py-1">
                     <h1>KN Para Vela</h1>
                     <p>Set the direction of flex items in a flex container with direction utilities. In most cases you can omit the horizontal class here as the browser default is row. However, you may encounter situations where you needed to explicitly set this value, or .flex-row-reverse to start the horizontal direction from the opposite side.c</p>
@@ -18,13 +18,14 @@
                 <div class="row py-1">
                     <img src="{{asset('imgs/dau-tu-2.png')}}" alt="">
                 </div>
-                <div class="p-0 text-center" >
+                <div class="p-0 text-center">
                     <a href="{{route('can-ho-mau')}}" style="text-decoration: none">
                         <img src="{{asset('imgs/intro-plut.png')}}" style="margin-top: -7%;" alt="">
-                        <p style="color: #019a81;">Xem thêm về dự án</p></a>
+                        <p style="color: #019a81;">Xem thêm về dự án</p>
+                    </a>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-md-6 col-sm-12">
                 <div class="row ">
                     <img src="{{asset('imgs/dau-tu-4.png')}}" alt="">
                 </div>
@@ -32,6 +33,7 @@
                     <img src="{{asset('imgs/dau-tu-3.png')}}" alt="">
                 </div>
                 <div class="row py-2">
+                    <b class="fs-5 mb-2">Tổng quan dự án</b>
                     <p><b style="color: #bf8e2c;">Tên dự án:</b> Tháp nghỉ dưỡng Vara Vela</p>
                     <p><b style="color: #bf8e2c;">Chủ đầu tư:</b> Công ty TNHH KN Cam Ranh</p>
                     <p><b style="color: #bf8e2c;">Vị trí:</b> KN Paradise, bãi Dài, P. Cam Nghĩa, TP. Cam Ranh, Khánh Hoà</p>
@@ -124,9 +126,9 @@
         <div class="row text-center">
             <div class="p-5"><img src="{{asset('imgs/dxmb.png')}}" alt="" class="img-fluid"></div>
 
-                <a href="https://datxanhmienbac.com.vn/">Xem thêm về Đất Xanh Miền Bắc</a>
+            <a href="https://datxanhmienbac.com.vn/">Xem thêm về Đất Xanh Miền Bắc</a>
 
-                <div class="d-flex justify-content-center P-5"><img src="{{asset('imgs/facebook.png')}}" alt="" class="p-1"> <img src="{{asset('imgs/youtube.png')}}" alt="" class="p-1"></div>
+            <div class="d-flex justify-content-center P-5"><img src="{{asset('imgs/facebook.png')}}" alt="" class="p-1"> <img src="{{asset('imgs/youtube.png')}}" alt="" class="p-1"></div>
 
         </div>
     </div>

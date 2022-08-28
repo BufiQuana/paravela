@@ -10,43 +10,42 @@
 .tien-ich-list {
     overflow-y: scroll;
     padding-left: 0;
-    height: 60vh;
+    height: 300px;
 }
 /* width */
 .tien-ich-list::-webkit-scrollbar {
     width: 0.5vw;
-  }
-  /* Track */
-  .tien-ich-list::-webkit-scrollbar-track {
+}
+/* Track */
+.tien-ich-list::-webkit-scrollbar-track {
     box-shadow: inset 0 0 1vw grey;
     border-radius: 10%;
-  }
-  /* Handle */
-  .tien-ich-list::-webkit-scrollbar-thumb {
+}
+/* Handle */
+.tien-ich-list::-webkit-scrollbar-thumb {
     background: orange;
     border-radius: 10px;
-  }
-  /* Handle on hover */
-  .tien-ich-list::-webkit-scrollbar-thumb:hover {
+}
+/* Handle on hover */
+.tien-ich-list::-webkit-scrollbar-thumb:hover {
     background: #b30000;
-  }
+}
 
-.tin-tuc img{
-object-fit: cover;
-height: 300px;
+.tin-tuc img {
+    object-fit: cover;
+    height: 300px;
 }
 .page-listing {
     width: auto;
     height: 40vh;
     left: -1%;
-    bottom:40vh;
+    bottom: 40vh;
     padding: 0%;
     z-index: 20;
     position: fixed;
     background: none;
-
 }
-.page-listing ul li a{
+.page-listing ul li a {
     background: #0000004d;
     color: white;
     border-radius: 100%;
@@ -54,7 +53,7 @@ height: 300px;
     text-decoration: none;
     padding: 0.7vh 0.7vw 0.7vh 0.7vw;
 }
-.page-listing ul li span{
+.page-listing ul li span {
     color: white;
     border-radius: 100%;
     font-weight: bolder;
@@ -63,13 +62,13 @@ height: 300px;
     font-size: x-large;
 }
 .page-listing ul .active-listing a,
-.page-listing ul li:hover a{
+.page-listing ul li:hover a {
     color: white;
     background-color: #01917a;
     padding: 0.7vh 0.7vw 0.7vh 0.7vw;
 }
 .page-listing ul .active-listing span,
-.page-listing ul li:hover span{
+.page-listing ul li:hover span {
     display: block;
 }
 
@@ -77,39 +76,73 @@ height: 300px;
 
 h4 {
     color: #bd9033;
-  }
+}
 
-  ul li::marker {
-   color: #bd9033;
-  }
+ul li::marker {
+    color: #bd9033;
+}
 
-  .item{
-    opacity:0.4;
-    transition:.4s ease all;
-    margin:0 20px;
-    transform:scale(.8);
-  }
-  @media(max-width:1000px){
-    .item{margin:0; transform:scale(.9)}
-  }
-  .active .item{
-    opacity:1;
-    transform:scale(1);
-  }
+.item {
+    opacity: 0.4;
+    transition: 0.4s ease all;
+    margin: 0 20px;
+    transform: scale(0.8);
+}
+@media (max-width: 1000px) {
+    .item {
+        margin: 0;
+        transform: scale(0.9);
+    }
+}
+.active .item {
+    opacity: 1;
+    transform: scale(1);
+}
 
+.owl-item {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1);
+}
 
-  .owl-item {
-      -webkit-backface-visibility: hidden;
-      -webkit-transform: translateZ(0) scale(1.0, 1.0);
-  }
+.inner {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.inner a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease border-color;
+}
+.inner a:hover {
+    border-color: #fff;
+}
+.black .inner a {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+.black .inner a:hover {
+    border-color: #000;
+}
 
-  .inner{position:absolute; bottom:30px; left:0; right:0; text-align:center;}
-  .inner a{color:#fff; text-decoration:none; border-bottom:2px solid rgba(255,255,255,0.5); transition:.3s ease border-color}
-  .inner a:hover{border-color:#fff;}
-  .black .inner a{color:#000; border-color:rgba(0,0,0,0.4)}
-  .black .inner a:hover{border-color:#000;}
+.owl-carousel:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4%;
+    pointer-events: none;
+    background: url() no-repeat center 50%;
+    background-size: 100% auto;
+}
 
-  .owl-carousel:after{content:""; display:block; position:absolute; width:8%; top:0; bottom:0; left:50%; margin-left:-4%; pointer-events: none; background:url() no-repeat center 50%; background-size:100% auto;
-  }
-
-  .owl-controls{position:absolute; margin-top:300px;}
+.owl-controls {
+    position: absolute;
+    margin-top: 300px;
+}

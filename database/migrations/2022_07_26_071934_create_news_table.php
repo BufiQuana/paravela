@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('description');
             $table->foreignId('category_id');
             $table->string('thumbnail');
-            $table->timestamps(now());
+            $table->timestamps();
         });
     }
 
