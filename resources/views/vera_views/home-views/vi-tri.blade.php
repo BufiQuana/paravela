@@ -1,8 +1,8 @@
 <div class="vi-tri">
     <div class="row">
-        <div class="col-md-7 col-sm-12  map">
+        <div class="col-lg-7 col-md-12  map">
         </div>
-        <div class="col-md-5 col-sm-12 d-flex flex-column">
+        <div class="col-lg-5 col-md-12 d-flex flex-column">
             <div class="d-flex flex-column flex-fill pe-5 ps-3 pt-3">
                 <div class="d-flex justify-content-between">
                     <h1>Vị Trí</h1>

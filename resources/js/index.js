@@ -10,7 +10,7 @@ $(document).ready(function () {
     var all_li = $(".dau-tu ul li");
 
     const turnOffSwiper = () => {
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 992) {
             swiper_container.classList.remove("swiper-container");
             swiper_wrapper.classList.remove("swiper-wrapper");
             swiper_slide.removeClass("swiper-slide");

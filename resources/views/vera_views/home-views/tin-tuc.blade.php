@@ -111,7 +111,7 @@
   <script>
     $(document).ready(function() {
       $("#news-slider").owlCarousel({
-        items: window.innerWidth <= 768 ? 1.5 : 3,
+        items: window.innerWidth <= 992 ? 1.5 : 3,
         itemsDesktop: [1199, 3],
         itemsDesktopSmall: [980, 2],
         itemsMobile: [600, 1],
@@ -119,7 +119,7 @@
         navigationText: ["", ""],
         pagination: true,
         autoPlay: true,
-        center: window.innerWidth <= 768 ? true : false,
+        center: window.innerWidth <= 992 ? true : false,
         loop: false
 
       });

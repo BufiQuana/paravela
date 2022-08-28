@@ -230,6 +230,33 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 576px) {
+    #text-gioi-thieu {
+        right: 10% !important;
+        left: 10% !important;
+    }
+
+    #text-gioi-thieu p {
+        font-size: 0.6rem;
+    }
+    #text-gioi-thieu h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    #text-gioi-thieu {
+        right: 10% !important;
+        left: 10% !important;
+    }
+
+    #text-gioi-thieu p {
+        font-size: 1.2rem;
+    }
+    #text-gioi-thieu h1 {
+        font-size: 2.5rem;
+    }
+}
 
 /* ===========================================footer============================================= */
 .footer-home {
@@ -545,7 +572,7 @@ video {
 
 /* =========================================== san pham  ============================================= */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 993px) {
     .img-san-pham {
         width: 100% !important;
         height: 100% !important;
@@ -570,7 +597,7 @@ video {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .box-content,
     .vi-tri,
     .tin-tuc {

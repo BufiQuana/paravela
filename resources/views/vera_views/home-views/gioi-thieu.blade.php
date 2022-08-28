@@ -2,7 +2,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="{{asset('imgs/gioi-thieu.png')}}" class="img-fluid img-gioi-thieu" alt="...">
-          <div class="carousel-caption d-none d-md-block text-start pb-lg-5">
+          <div class="carousel-caption text-start pb-lg-5" id="text-gioi-thieu">
             <h1>Tháp nghỉ dưỡng sở hữu lâu dài</h1>
             <p class="pb-lg-5">Some representative placeholder content for the first slide.</p>
           </div>

@@ -13,7 +13,7 @@
             <section>
                 @include('vera_views.home-views.gioi-thieu')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <section>
                 @include('vera_views.home-views.cau-chuyen')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <section>
                 @include('vera_views.home-views.tong-quan')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -40,7 +40,7 @@
             <section>
                 @include('vera_views.home-views.vi-tri')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <section>
                 @include('vera_views.home-views.dau-tu')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -58,7 +58,7 @@
             <section>
                 @include('vera_views.home-views.san-pham')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <section>
                 @include('vera_views.home-views.tien-ich')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>
@@ -76,7 +76,7 @@
             <section>
                 @include('vera_views.home-views.tin-tuc')
             </section>
-            <div class="position-absolute ic-angles-down d-md-block d-none">
+            <div class="position-absolute ic-angles-down d-lg-block d-none">
                 <i class="fa fa-angles-down text-white"></i>
             </div>
         </div>

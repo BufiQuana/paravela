@@ -4,7 +4,7 @@
 
       <h1 class="text-center">6 lý do đầu tư</h1>
 
-      <ul class="list-group list-group-horizontal-md list-group-horizontal-sm p-0 w-100">
+      <ul class="list-group list-group-horizontal-lg list-group-vertical-md p-0 w-100">
         <li class="active-cell cell list-group-item bg-tranparent border-0">
           <div class="card bg-dark text-white ">
             <img class="card-img" src="{{asset('imgs/dau-tu-1.png')}}" alt="Card image">
